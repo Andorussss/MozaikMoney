@@ -3,7 +3,7 @@
     margin: 45px 0 0 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F3F3F3;
+    background: linear-gradient(135deg, #0065ff 20%, #06151b 50%, #042025 80%);
     height: 100%;
     min-height: 100vh;
     font-family: 'Bebas Neue', sans-serif;

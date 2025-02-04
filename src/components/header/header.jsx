@@ -1,68 +1,27 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 
-const Header = (props) => {
-    const [showCatalogDropdown, setShowCatalogDropdown] = useState(false);
-    const handleCatalogMouseEnter = () => {
-        setShowCatalogDropdown((prevState)=>!prevState);
-    };
-
-    const handleCatalogMouseLeave = () => {
-        setShowCatalogDropdown(false);
-    };
-
+const Header = () => {
     return (
         <header className="header">
-            <h3>
-                <Link to="/">Pixel Trails</Link>
-            </h3>
-            <ul>
-                <li onClick={handleCatalogMouseEnter} onMouseLeave={handleCatalogMouseLeave}>
-                    <p className={'catalog'}>Product Catalog</p>
-                    {showCatalogDropdown && (
-                        <ul className="catalog-dropdown">
-                            <Link to={'/action-genre'}>
-                                <li>
-                                    Action
-                                </li>
-                            </Link>
-                            <Link to={'/adventure-genre'}>
-                                <li>
-                                    Adventure
-                                </li>
-                            </Link>
-                            <Link to={'/sport-genre'}>
-                                <li>
-                                    Sport
-                                </li>
-                            </Link>
-                            <Link to={'/strategy-genre'}>
-                                <li>
-                                    Strategy
-                                </li>
-                            </Link>
-                            <Link to={'/race-genre'}>
-                                <li>
-                                    race
-                                </li>
-                            </Link>
-                            <Link to={'/simulator-genre'}>
-                                <li>
-                                   simulators
-                                </li>
-                            </Link>
-                        </ul>
-                    )}
-                </li>
-                <li>
-                    <Link to="/basket">my basket</Link>
-                </li>
-                <li>
-                    <Link to={"/about-us"}>About us</Link>
-                </li>
-            </ul>
+            <div className="logo">
+                <span className="logo-icon">$</span>
+                <span className="logo-text">AI Financial</span>
+            </div>
+            <nav>
+                <ul className="nav-links">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/pricing">Pricing</Link></li>
+                    <li><Link to="/blogs">Blogs</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
+            </nav>
+            <button className="login-btn">Log In</button>
+
         </header>
+
     );
 };
 

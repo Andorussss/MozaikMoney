@@ -29,7 +29,7 @@ export default class App extends Component {
             <ErrorBoundary>
                 <div className={'App'}>
                     <Header/>
-                    <main>
+                    <main className="main">
                         <Routes>
                             <Route path="/" element={<HomePage/>} />
                             <Route path="/basket" element={<BasketPage/>} />
