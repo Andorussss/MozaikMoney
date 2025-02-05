@@ -15,10 +15,12 @@ const Header = () => {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/pricing">Pricing</Link></li>
                     <li><Link to="/blogs">Blogs</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/contact-us">Contact</Link></li>
                 </ul>
             </nav>
-            <button className="login-btn">Log In</button>
+            <Link to="/sign-up">
+                <button className="login-btn">Log In</button>
+            </Link>
 
         </header>
 

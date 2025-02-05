@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './Page.css';
+import './HomePage.css';
 import PartnersBlock from '../partnersBlock/PartnersBlock';
 import Dashboard from "../dashboard";
 const HomePage = () => {
@@ -16,8 +16,8 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <PartnersBlock/>
             <Dashboard/>
+            <PartnersBlock/>
         </div>
 
     );

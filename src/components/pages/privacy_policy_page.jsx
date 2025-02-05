@@ -1,5 +1,5 @@
 import React from 'react';
-import './Page.css'
+import './HomePage.css'
 const PrivacyPolicyPage = () => {
     return (
         <div className={'container'}>

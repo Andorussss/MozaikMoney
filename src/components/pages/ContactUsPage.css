@@ -1,0 +1,69 @@
+.contact-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-container p {
+    text-align: center;
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-container input, .contact-container select, .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #292929;
+    color: #ffffff;
+}
+.contact-container textarea {
+    resize: none;
+    height: 100px;
+}
+.contact-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bfa6;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-container button:hover {
+    background-color: #009f8e;
+}
+.contact-container .checkbox-container {
+    display: flex;
+    font-size: 14px;
+    color: #b3b3b3;
+    gap: 10px;
+}
+
+.checkbox-link{
+    color: #00bfa6;
+    text-decoration: none;
+}
+
+.checkbox-block{
+    width: 20px;
+    height: 20px;
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+}

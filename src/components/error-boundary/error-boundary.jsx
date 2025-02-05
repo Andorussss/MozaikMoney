@@ -1,23 +1,26 @@
-import React, {Component} from "react"
+import React, { useState, useEffect } from "react";
 import ErrorIndicator from "../errors";
 
-export default class ErrorBoundary extends Component {
+const ErrorBoundary = ({ children }) => {
+    const [hasError, setHasError] = useState(false);
 
-    state = {
-        hasError: false
+    useEffect(() => {
+        const errorHandler = () => {
+            setHasError(true);
+        };
+
+        window.addEventListener("error", errorHandler);
+
+        return () => {
+            window.removeEventListener("error", errorHandler);
+        };
+    }, []);
+
+    if (hasError) {
+        return <ErrorIndicator/>;
     }
 
-    componentDidCatch(error, info) {
-        this.setState({
-            hasError: true
-        })
-    }
+    return children;
+};
 
-    render() {
-        if (this.state.hasError) {
-            return <ErrorIndicator/>
-        }
-
-        return this.props.children
-    }
-}
+export default ErrorBoundary;
