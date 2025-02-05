@@ -2,21 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-        background: linear-gradient(135deg, #000000, #07573b);
-        background-size: 400% 400%;
-        animation: shine-bg 20s infinite linear;
-
+    background: linear-gradient(135deg, #000000, #07573b);
+    background-size: 400% 400%;
+    animation: shine-bg 20s infinite linear;
 }
 @keyframes shine-bg {
-        0% {
-                background-position: 0% 25%;
-        }
-        50% {
-                background-position: 80% 50%;
-        }
-        100% {
-                background-position: 10% 50%;
-        }
+    0% {
+        background-position: 0% 25%;
+    }
+    50% {
+        background-position: 80% 50%;
+    }
+    100% {
+        background-position: 10% 50%;
+    }
 }
 main{
         display: flex;

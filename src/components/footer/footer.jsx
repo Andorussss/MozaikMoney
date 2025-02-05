@@ -5,16 +5,14 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <p>
-                © 2023 Pixel Trails
+                © 2023 Mozaik Money
             </p>
-            <ul>
-                <li>
-                    <Link to={"/about-us"}>About us</Link>
-                </li>
-                <li>
-                    <Link to={"/privacy-policy"}>Privacy Policy</Link>
-                </li>
-            </ul>
+            <nav className="navbar">
+                <ul className="nav-links">
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/pricing">Privacy Policy</Link></li>
+                </ul>
+            </nav>
         </footer>
     );
 };

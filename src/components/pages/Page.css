@@ -1,114 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-.page{
-    margin: 45px 0 0 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: linear-gradient(135deg, #0065ff 20%, #06151b 50%, #042025 80%);
-    height: 100%;
-    min-height: 100vh;
-    font-family: 'Bebas Neue', sans-serif;
+.global-padding-container{
+    padding-left:5%;
+    padding-right:5%;
+}
+.textContainer{
+    width: 800px;
+    margin: 0 auto;
 }
 .title{
+    font-weight: 400;
+    color:#fff;
+    font-size: 2.5rem;
+    line-height: 1.2;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-.container{
-    margin: 45px 0 45px 0;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: white;
-    height: 100%;
-    font-family: 'Bebas Neue', sans-serif;
+.subtitle{
+    text-align: center;
+    margin-top: 15px;
+    color: #b0b0b0;
+    font-size: 1.1rem;
 }
-
-.info-block{
-    margin: 30px auto;
-    padding: 40px;
-    background-color: white;
-    max-width: 1000px;
-    height: fit-content;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-th {
-    background-color: #f2f2f2;
-}
-form input{
-    margin-bottom: 25px;
-}
-form .btn{
-    padding: 10px 20px;
-    color: white;
-    background-color: #ff4400;
-    transition: 0.5s;
-}
-form .btn:hover{
-    transform: scale(1.2);
-    background-color: orange;
-}
-.game-page{
-    padding: 20px;
-    display: flex;
-    height: 100%;
-    min-height: 100vh;
-    font-family: 'Bebas Neue', sans-serif;
-    justify-content: center;
-}
-.game-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 40px;
-    background-color: white;
-    width: 1000px;
-}
-.game-img{
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-}
-.img-box{
-    width: 50%;
-}
-.button-box{
+.buttons {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
 }
-
-.discount-box{
-    width: 100px;
-    height: 100px;
-    background-color: #38d2b4;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin-right: 20px;
-    border-width: 4px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #ff0000, #00ff00);
-    border-image-slice: 1;
-}
-.addBtn{
-    color: white;
-    background-color: royalblue;
+.button {
     padding: 10px 20px;
-    width: 300px;
-    height: 100px;
-    transition: 0.5s;
-    font-size: 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
 }
-.addBtn:hover{
-    padding: 10px 20px;
+.get-started {
+    background-color: #008080;
     color: white;
-    background-color: #59a41c;
-    transform: scale(1.1);
+}
+.get-started:hover {
+    background-color: #006666;
+}
+.learn-more {
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.learn-more:hover {
+    background: white;
+    color: black;
 }
