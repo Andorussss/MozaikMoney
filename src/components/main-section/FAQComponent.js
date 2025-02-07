@@ -1,4 +1,5 @@
 import FAQItemComponent from "./FAQItemComponent";
+import {Link} from "react-router-dom";
 
 const FAQComponent = () => {
     const faqs = [
@@ -27,7 +28,7 @@ const FAQComponent = () => {
                                 <h3 className="heading-style-h4">Still have questions?</h3>
                                 <p className="text-size-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 <div className="margin-top margin-medium">
-                                    <a href="/contact" className="button is-secondary w-button">Contact</a>
+                                    <Link to="/contact-us" className="button is-secondary w-button">Contact</Link>
                                 </div>
                             </div>
                         </div>

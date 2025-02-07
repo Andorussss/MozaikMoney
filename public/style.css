@@ -7,6 +7,7 @@ html {
 
 body {
     margin: 0
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -225,7 +226,7 @@ body {
     background-color: #fff;
     min-height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Serif Hentaigana', serif;
     font-size: 14px;
     line-height: 20px
 }
@@ -420,7 +421,7 @@ h6 {
 }
 
 p {
-    margin-top: 0;
+    margin-top: 1px;
     margin-bottom: 10px
 }
 
@@ -2090,11 +2091,10 @@ textarea.w-input, textarea.w-select {
 
 :root {
     --background-color--primary: var(--swatch--neutral-darkest);
-    --font-family--paragraph-font: Exo, sans-serif;
     --font--paragraph: var(--swatch--grey);
     --font--heading-primary: var(--swatch--white);
     --font--heading-secondary: var(--swatch--silver);
-    --font-family--heading-font: Exo, sans-serif;
+    --font-family--heading-font: 'Noto Serif Hentaigana', serif;
     --link--link-color: var(--swatch--silver);
     --link--link-hover-color: var(--swatch--white);
     --border--tertiary: var(--swatch--neutral-lightest);
@@ -2219,10 +2219,10 @@ textarea.w-input, textarea.w-select {
 
 body {
     background-color: var(--background-color--primary);
-    font-family: var(--font-family--paragraph-font);
     color: var(--font--paragraph);
     font-size: 1rem;
-    line-height: 1.5
+    line-height: 1.5;
+    font-family: 'Noto Serif Hentaigana', serif;
 }
 
 h1 {
@@ -4084,7 +4084,7 @@ figcaption {
     bottom: 0%;
     left: 16%;
     right: 0%;
-    transform: rotate(-28deg) skew(28deg)
+    transform: rotate(-28deg) skew(28deg);
 }
 
 .hero_section_wrapper, .about_1_hero-header_wrapper, .cta_content_wrapper, .section_content_wrapper {

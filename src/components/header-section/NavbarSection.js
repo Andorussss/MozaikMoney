@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const NavbarSection = () => {
     return (
@@ -7,7 +8,7 @@ const NavbarSection = () => {
             <div className="navbar_container">
                 <a href="/public" aria-current="page" className="navbar_logo-link w-nav-brand w--current">
                     <img
-                        src="/temp-logo.png"
+                        src="/img/temp-logo.png"
                         alt="Logo"
                         className="navbar_logo"
                         width="170"
@@ -15,16 +16,15 @@ const NavbarSection = () => {
                 </a>
                 <nav role="navigation"
                      id="w-node-_432ab101-ff29-e709-9083-318b395c580b-395c5807" className="navbar_menu w-nav-menu">
-                    <a href="/public" aria-current="page"
-                       className="navbar_link w-nav-link w--current">Home</a>
-                    <a href="/about" className="navbar_link w-nav-link">About</a>
-                    <a href="/pricing"  className="navbar_link w-nav-link">Pricing</a>
-                    <a href="/blog"  className="navbar_link w-nav-link">Blogs</a>
-                    <a href="/contact"  className="navbar_link w-nav-link">Contact</a>
-                    <a href="/log-in" className="button is-small hide-desktop w-button">Log In</a>
+                    <Link to="/" className="navbar_link w-nav-link">Home</Link>
+                    <Link to="/about" className="navbar_link w-nav-link">About</Link>
+                    <Link to="/pricing" className="navbar_link w-nav-link">Pricing</Link>
+                    <Link to="/blog" className="navbar_link w-nav-link">Blogs</Link>
+                    <Link to="/contact-us" className="navbar_link w-nav-link">Contact</Link>
+                    <Link to="/log-in" className="button is-small hide-desktop w-button">Log In</Link>
                 </nav>
-                <div className="navbar_button-wrapper">
-                    <a href="/log-in" className="button is-small hide-mobile-landscape w-button">Log In</a>
+                <div id="w-node-_432ab101-ff29-e709-9083-318b395c581e-395c5807"  className="navbar_button-wrapper">
+                    <Link to="/log-in" className="button is-small hide-mobile-landscape w-button">Log In</Link>
                     <div className="navbar_menu-button w-nav-button">
                         <div className="menu-icon">
                             <div className="menu-icon_line-top"></div>

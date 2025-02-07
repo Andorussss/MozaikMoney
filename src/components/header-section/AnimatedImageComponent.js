@@ -43,7 +43,7 @@ const AnimatedImage = () => {
         >
             <img
                 alt="ups"
-                src="/section1-anim.png"
+                src="/img/section1-anim.png"
                 className="home_1_hero-header_image"
             />
         </div>

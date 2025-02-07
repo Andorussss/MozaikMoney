@@ -1,26 +1,21 @@
-import NavbarSection from "../header-section/NavbarSection";
-import BackgroundComponent from "../header-section/BackgroundComponent";
-import MainComponent from "../header-section/MainComponent";
-import TransactionComponent from "../main-section/TransactionComponent";
-import FeaturesComponent from "../main-section/FeaturesComponent";
-import FAQComponent from "../main-section/FAQComponent";
-import AdvantagesComponent from "../main-section/AdvantagesComponent";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+import LoginPage from "../pages/SignUpPage";
+import ContactUs from "../pages/ContactUs";
 
 function App() {
     return (
-        <div>
-            <main>
-                <header className="section_home_1_hero-header">
-                    <BackgroundComponent />
-                    <NavbarSection />
-                    <MainComponent />
-                </header>
-                <AdvantagesComponent />
-                <TransactionComponent />
-                <FeaturesComponent />
-                <FAQComponent />
-            </main>
-        </div>
+        <Router>
+            <div className="App">
+                <main className="main">
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/log-in" element={<LoginPage />} />
+                        <Route path="/contact-us" element={<ContactUs />} />
+                    </Routes>
+                </main>
+            </div>
+        </Router>
     );
 }
 
