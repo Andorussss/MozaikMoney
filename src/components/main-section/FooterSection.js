@@ -48,7 +48,7 @@ const FooterSection = () => {
                         <div className="padding-top padding-medium">
                             <div className="footer_bottom-wrapper">
                                 <div className="w-layout-grid footer_legal-list">
-                                    <div id="w-node-_7df1f76c-51d7-b25a-7b8e-d4f786a6274c-86a626e3"
+                                    <div id="ftr-text"
                                          className="footer_credit-text">
                                         Made by Us .Powered By Also By Us
                                     </div>

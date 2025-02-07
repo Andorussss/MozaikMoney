@@ -35,9 +35,7 @@ const FeaturesComponent = () => {
                                             adipiscing
                                             elit. Suspendisse varius enim in eros elementum tristique. </p>
                                     </div>
-                                    <div
-                                         data-w-id="5c1b70f8-20ab-67ef-acb0-f21666a04cf0"
-                                         className="home_4_layout_item">
+                                    <div className="home_4_layout_item">
                                         <div className="margin-bottom margin-small">
                                             <img
                                                 src="https://cdn.prod.website-files.com/665ea5103f6c57320a761443/666ee2092b455a328e288605_Expense.png"
@@ -145,9 +143,7 @@ const FeaturesComponent = () => {
                                             adipiscing
                                             elit. Suspendisse varius enim in eros elementum tristique. </p>
                                     </div>
-                                    <div
-                                         data-w-id="493ffa99-0467-5140-3299-02c9b00f47ae"
-                                         className="home_4_layout_item">
+                                    <div className="home_4_layout_item">
                                         <div className="margin-bottom margin-small">
                                             <img
                                                 src="https://cdn.prod.website-files.com/665ea5103f6c57320a761443/666ee20949c093ea923ff1af_Data_Security.png"

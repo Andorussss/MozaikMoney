@@ -15,7 +15,7 @@ const NavbarSection = () => {
                     />
                 </a>
                 <nav role="navigation"
-                     id="w-node-_432ab101-ff29-e709-9083-318b395c580b-395c5807" className="navbar_menu w-nav-menu">
+                     id="nav-center" className="navbar_menu w-nav-menu">
                     <Link to="/" className="navbar_link w-nav-link">Home</Link>
                     <Link to="/about" className="navbar_link w-nav-link">About</Link>
                     <Link to="/pricing" className="navbar_link w-nav-link">Pricing</Link>
@@ -23,7 +23,7 @@ const NavbarSection = () => {
                     <Link to="/contact-us" className="navbar_link w-nav-link">Contact</Link>
                     <Link to="/log-in" className="button is-small hide-desktop w-button">Log In</Link>
                 </nav>
-                <div id="w-node-_432ab101-ff29-e709-9083-318b395c581e-395c5807"  className="navbar_button-wrapper">
+                <div id="btn-login"  className="navbar_button-wrapper">
                     <Link to="/log-in" className="button is-small hide-mobile-landscape w-button">Log In</Link>
                     <div className="navbar_menu-button w-nav-button">
                         <div className="menu-icon">

@@ -18,7 +18,7 @@ const FAQComponent = () => {
                                 <p className="text-size-medium">Вопросы есть?</p>
                             </div>
                         </div>
-                        <div className="home_10_faq_component w-layout-grid home_10_faq_list">
+                        <div className=" w-layout-grid home_10_faq_list">
                             {faqs.map((faq, index) => (
                                 <FAQItemComponent key={index} question={faq.question} answer={faq.answer} />
                             ))}

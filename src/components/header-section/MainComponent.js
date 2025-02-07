@@ -1,4 +1,5 @@
 import AnimatedImage from "./AnimatedImageComponent";
+import {Link} from "react-router-dom";
 
 const MainComponent = () => {
     return (
@@ -24,9 +25,9 @@ const MainComponent = () => {
                                         </p>
                                         <div className="margin-top margin-medium">
                                             <div className="button-group is-center">
-                                                <a href="/sign-up" className="button w-button">
+                                                <Link to="/log-in" className="button w-button">
                                                     Начать
-                                                </a>
+                                                </Link>
                                                 <a href="#Feature" className="button is-secondary w-button">
                                                     Узнать побольше
                                                 </a>
