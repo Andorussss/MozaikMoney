@@ -13,30 +13,28 @@ const MainComponent = () => {
                                     <div className="max-width-large">
                                         <div className="margin-bottom margin-small">
                                             <h1 className="heading-style-h1">
-                                                Управление финансами на основе ML - более разумные выводы, более
-                                                эффективные решения
+                                                ML-based financial management - smarter conclusions, better decisions
                                             </h1>
                                         </div>
                                         <p className="text-size-medium">
-                                            Наше веб-приложение использует машинное обучение для анализа финансов,
-                                            прогнозирования расходов и оптимизации бюджета. Автоматизируйте управление
-                                            финансами, получайте персонализированные рекомендации и принимайте более
-                                            взвешенные финансовые решения.
+                                            Our web application uses machine learning to analyze finances, predict
+                                            spending and optimize your budget. Automate your financial management, get
+                                            personalized recommendations and make better financial decisions.
                                         </p>
                                         <div className="margin-top margin-medium">
                                             <div className="button-group is-center">
                                                 <Link to="/log-in" className="button w-button">
-                                                    Начать
+                                                    Start journey
                                                 </Link>
                                                 <a href="#Feature" className="button is-secondary w-button">
-                                                    Узнать побольше
+                                                    More
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <AnimatedImage />
+                            <AnimatedImage/>
                         </div>
                     </div>
                 </div>

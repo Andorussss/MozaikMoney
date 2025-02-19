@@ -1,8 +1,10 @@
 import React from 'react';
 import './contact-us.css'
+import NetBackground from "./NetBackground";
 const ContactUsPage = () => {
     return (
         <div className="contact-container">
+            <NetBackground />
             <h1>Contact Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <form>

@@ -3,19 +3,19 @@ import React from 'react';
 const AdvantagesComponent = () => {
     const features = [
         {
-            image: 'https://cdn.prod.website-files.com/665ea5103f6c57320a761443/666ede78d9d28b4d49aac8ba_Service_Frame_1.png',
+            image: '/img/adv1.jpeg',
             title: 'Detailed Usage Analytics',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
+            description: 'provides in-depth analysis of financial data to help users track and optimise spending. Through the use of machine learning, the system identifies patterns in spending, predicts future financial trends and offers personalised recommendations. Data visualisation in easy-to-use charts and reports makes financial management intuitive and efficient.'
         },
         {
-            image: 'https://cdn.prod.website-files.com/665ea5103f6c57320a761443/666ede78d9d28b4d49aac8ba_Service_Frame_1.png',
+            image: '/img/adv2.jpeg',
             title: 'Enhance Workflow',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
+            description: 'enables you to automate and optimise financial management, reducing routine tasks and increasing efficiency. Intelligent algorithms analyse financial transactions, suggest the best budget management strategies and help you make informed decisions. Intuitive interface and integration with analytical tools simplify workflow, making financial management convenient and efficient.'
         },
         {
-            image: 'https://cdn.prod.website-files.com/665ea5103f6c57320a761443/666eae9139fff200090f914f_Service_Frame_3.png',
-            title: 'Generate AI Data',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
+            image: '/img/adv3.jpeg',
+            title: 'Generate ML Data',
+            description: 'automatically collects and prepares financial data for training machine learning models. The system cleans, structures and analyses the data, creating quality sets for predictive analysis. This improves the accuracy of predictions, identifies hidden patterns, and enables better-informed financial decisions.'
         }
     ];
 
@@ -28,8 +28,9 @@ const AdvantagesComponent = () => {
                             <div className="margin-bottom margin-xxlarge">
                                 <div className="text-align-center">
                                     <div className="max-width-large">
-                                        <h3 style={{ transform: 'translate3d(0, 40px, 0)', opacity: 1 }}>
-                                            Оптимизируйте свои финансы с помощью  <span className="text-highlight">интеллектуальных данных</span>
+                                        <h3 style={{transform: 'translate3d(0, 40px, 0)', opacity: 1}}>
+                                            Optimize your finances with <span
+                                            className="text-highlight">smart data</span>
                                         </h3>
                                     </div>
                                 </div>
